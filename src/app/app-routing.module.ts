@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {FormComponent} from './form.component';
+import {TaskComponent} from './task.component';
 
 const routes: Routes = [
-  { path: '**', component: FormComponent}
+  { path: '**', component: TaskComponent}
 ];
 
 @NgModule({
