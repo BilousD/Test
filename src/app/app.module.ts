@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { FormComponent } from './form.component';
 import {ReactiveFormsModule} from '@angular/forms';
 import { TaskComponent } from './task.component';
+import { StopwatchComponent } from './stopwatch.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FormComponent,
-    TaskComponent
+    TaskComponent,
+    StopwatchComponent
   ],
   imports: [
     BrowserModule,

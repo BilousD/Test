@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {TaskComponent} from './task.component';
+import {StopwatchComponent} from './stopwatch.component';
 
 const routes: Routes = [
-  { path: '**', component: TaskComponent}
+  { path: '**', component: StopwatchComponent}
 ];
 
 @NgModule({
